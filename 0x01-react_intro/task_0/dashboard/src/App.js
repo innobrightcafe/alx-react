@@ -1,11 +1,12 @@
 import React from "react"
-import ReactDOM from "react-dom"
+import "./App.css"
+import ME from './Holberton Logo.jpg'
 
 const App = () => {
     return (
         <div>
             <div className="App-header">
-                <img src="Holberton Logo.jpg"></img>
+                <img src={ME} alt="me"/>
                 <h1>School dashboard</h1>
             </div>
             <div className="App-body">
