@@ -1,0 +1,23 @@
+.Notifications {
+    border: 1px dashed red;
+    color: red;
+    padding: 0.2rem;
+    margin: 1rem;
+    position: relative;
+  }
+  .Notifications p {
+    color: black;
+  }
+  
+  .default-item {
+    color: blue;
+  }
+  
+  .urgent-item {
+    color: red;
+  }
+
+  button img {
+    width: 1rem;
+    height: auto;
+ }

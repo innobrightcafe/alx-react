@@ -8,12 +8,14 @@
 }
 
 .App-body{
-  height: 65vh;
+  height: 63vh;
   padding: 1rem;
   
 }
 
+
 .App-footer p {
+  height: 5vh;
   overflow: hidden;
   border-top: solid red;
   font-style: italic;
