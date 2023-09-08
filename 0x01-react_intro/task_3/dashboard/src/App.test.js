@@ -3,10 +3,9 @@ import { shallow } from 'enzyme';
 
 import App from './App';
 
-describe('<App />', () => {
+describe('App', () => {
   it('renders without crashing', () => {
-    const wrapper = shallow(<App />);
-    expect(wrapper.exists()).toBe(true);
+    shallow(<App />);
   });
 
   it('renders a div with the class App-header', () => {
@@ -23,4 +22,16 @@ describe('<App />', () => {
     const wrapper = shallow(<App />);
     expect(wrapper.find('div.App-footer').exists()).toBe(true);
   });
+
+  it('toggles a class on button click', () => {
+    const wrapper = shallow(<App />);
+    const button = wrapper.find('button');
+    const targetElement = weapper.find('.target-element');
+    
+    expect(targetElement.hasClass('active')).toBe(false);
+
+    button.simulate('click');
+
+    expect(targetElement.hasClass('active')).toBe(true)
+  })
 });
