@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 # 0x03. React component
 
 ## Learning Objectives
 
+=======
+## 0x03. React component
+### Learning Objectives
+>>>>>>> 531e2d1b57a071a09d4de5cb86fbb6bebbc0101f
 - When to use a Class or a function to create a component
 - The lifecycle of a Class component
 - How to test a component
