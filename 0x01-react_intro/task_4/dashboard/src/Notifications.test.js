@@ -3,9 +3,9 @@ import { shallow } from 'enzyme';
 
 import Notifications from './Notifications';
 
-describe('<Notifications />', () => {
+describe('Notifications', () => {
   it('renders without crashing', () => {
-    shallow(<Notifications />);
+    shallow(Notifications);
   });
 
   it('renders three list items', () => {
